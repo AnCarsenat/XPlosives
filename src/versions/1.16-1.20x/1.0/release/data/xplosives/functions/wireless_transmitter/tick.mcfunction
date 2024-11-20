@@ -1,5 +1,5 @@
 # Summon Armor Stand and Tag as New Receiver
-execute as @e[type=bat,tag=wireless_transmitter,tag=receiver] if entity @s at @s align xz run summon armor_stand ~0.5 ~ ~0.5 {Marker:true,CustomNameVisible:true,CustomName:'[{"text":"detonator","color":"red"}]',Invisible:0b,Invulnerable:1b,NoGravity:1b,Tags:["wireless_transmitter","receiver","new_receiver"]}
+execute as @e[type=bat,tag=wireless_transmitter,tag=receiver] if entity @s at @s align xz run summon armor_stand ~0.5 ~ ~0.5 {Marker:true,CustomNameVisible:false,CustomName:'[{"text":"detonator","color":"red"}]',Invisible:true,Invulnerable:1b,NoGravity:1b,Tags:["wireless_transmitter","receiver","new_receiver"]}
 # Set Block at Receiver Location
 execute as @e[type=bat,tag=wireless_transmitter,tag=receiver] if entity @s at @s align xz run setblock ~ ~ ~ dark_prismarine_slab
 
