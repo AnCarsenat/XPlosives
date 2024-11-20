@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "crafted_random_tp_tnt": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplosives:explosives/random_tp_tnt_craft"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplosives:explosives/random_tp_tnt/give"
+    }
+}

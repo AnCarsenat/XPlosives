@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "crafted_receiver": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "xplosives:receiver/receiver"
+            }
+        }
+    },
+    "rewards": {
+        "function": "xplosives:wireless_transmitter/give"
+    }
+}
