@@ -55,7 +55,15 @@ TNTs function like default TNT but create more interesting explosions.
 ---
 
 ## 📦 Current Versions
+|game_version|datapack_version|patches|added|removed|
+|---|---|---|---|---|
+|1.16-1.20x|1.0||||
+|1.16-1.20x|1.1|multiplayer|text info|nerfed tp tnt|
+
 
 ## 🛠️ Filing Issues / Merging
+[Xplosives](https://github.com/AnCarsenat/XPlosives)  
+[File an issue](https://github.com/AnCarsenat/XPlosives/issues)
 
 ## ⚖️ License
+Under Creative Commons Attribution 4.0 International
