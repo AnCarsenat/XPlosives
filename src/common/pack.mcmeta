@@ -1,6 +1,10 @@
 {
 	"pack": {
-		"pack_format": 12,
+    		"pack_format": DEFAULT,
+    		"supported_formats": {
+      			"min_inclusive": FROM,
+      			"max_inclusive": TO
+	    	},
 		"description": "More Explosives for minecraft by CaptainDragons"
 	}
 }

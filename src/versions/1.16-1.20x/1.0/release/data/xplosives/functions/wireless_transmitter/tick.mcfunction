@@ -1,5 +1,5 @@
 # Summon Armor Stand and Tag as New Receiver
-execute as @e[type=bat,tag=wireless_transmitter,tag=receiver] if entity @s at @s align xz run summon armor_stand ~0.5 ~ ~0.5 {Marker:true,CustomNameVisible:false,CustomName:'[{"text":"detonator","color":"red"}]',Invisible:true,Invulnerable:1b,NoGravity:1b,Tags:["wireless_transmitter","receiver","new_receiver"]}
+execute as @e[type=bat,tag=wireless_transmitter,tag=receiver] if entity @s at @s align xz run summon armor_stand ~0.5 ~ ~0.5 {Marker:true,CustomNameVisible:false,CustomName:'[{"text":"detonator","color":"red"}]',Invisible:1b,Invulnerable:1b,NoGravity:1b,Tags:["wireless_transmitter","receiver","new_receiver"]}
 # Set Block at Receiver Location
 execute as @e[type=bat,tag=wireless_transmitter,tag=receiver] if entity @s at @s align xz run setblock ~ ~ ~ dark_prismarine_slab
 
@@ -17,4 +17,4 @@ execute as @a run scoreboard players enable @s xplosives.s.chnl
 execute as @a[scores={xplosives.s.send=1..}] run function xplosives:wireless_transmitter/transmit
 
 # Receiver breaking 
-execute as @e[type=armor_stand,tag=wireless_transmitter] unless block ~ ~ ~ minecraft:dark_prismarine_slab run kill @s
+execute as @e[type=armor_stand,tag=wireless_transmitter] at @s unless block ~ ~ ~ minecraft:dark_prismarine_slab run kill @s
